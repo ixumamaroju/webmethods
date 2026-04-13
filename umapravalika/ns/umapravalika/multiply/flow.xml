@@ -8,7 +8,7 @@
   <COMMENT></COMMENT>
 </MAP>
 
-<INVOKE TIMEOUT="" SERVICE="pub.math:addInts" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="pub.math:multiplyInts" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -21,7 +21,7 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">addIntsInput</value>
+    <value name="field_name">multiplyIntsInput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
@@ -78,7 +78,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">a</value>
+        <value name="field_name">input1</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -97,7 +97,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">b</value>
+        <value name="field_name">input2</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -114,10 +114,10 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/a;1;0" TO="/num1;1;0">
+<MAPCOPY FROM="/input1;1;0" TO="/num1;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/b;1;0" TO="/num2;1;0">
+<MAPCOPY FROM="/input2;1;0" TO="/num2;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -167,7 +167,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">a</value>
+        <value name="field_name">input1</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -186,7 +186,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">res</value>
+        <value name="field_name">result</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -205,7 +205,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">b</value>
+        <value name="field_name">input2</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -237,7 +237,7 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">addIntsOutput</value>
+    <value name="field_name">multiplyIntsOutput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
@@ -263,7 +263,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/value;1;0" TO="/res;1;0">
+<MAPCOPY FROM="/value;1;0" TO="/result;1;0">
 </MAPCOPY>
 </MAP>
 </INVOKE>
