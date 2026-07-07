@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">buildNextDoctorId</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">SURhdGFDdXJzb3IgY3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQoNClN0cmluZyBjdXJy
+ZW50RG9jdG9ySWQgPSBJRGF0YVV0aWwuZ2V0U3RyaW5nKGN1cnNvciwgImN1cnJlbnREb2N0b3JJ
+ZCIpOw0KDQpTdHJpbmcgZG9jdG9ySWQ7DQoNCmlmIChjdXJyZW50RG9jdG9ySWQgPT0gbnVsbCB8
+fCBjdXJyZW50RG9jdG9ySWQudHJpbSgpLmlzRW1wdHkoKSkgew0KDQogICAgZG9jdG9ySWQgPSAi
+RDAwMSI7DQoNCn0gZWxzZSB7DQoNCiAgICBTdHJpbmcgbnVtZXJpY1BhcnQgPSBjdXJyZW50RG9j
+dG9ySWQucmVwbGFjZUFsbCgiXFxEKyIsICIiKTsNCg0KICAgIGludCBuZXh0TnVtYmVyID0gSW50
+ZWdlci5wYXJzZUludChudW1lcmljUGFydCkgKyAxOw0KDQogICAgZG9jdG9ySWQgPSBTdHJpbmcu
+Zm9ybWF0KCJEJTAzZCIsIG5leHROdW1iZXIpOw0KfQ0KDQpJRGF0YVV0aWwucHV0KGN1cnNvciwg
+ImRvY3RvcklkIiwgZG9jdG9ySWQpOw0KDQpjdXJzb3IuZGVzdHJveSgpOw==</value>
+</Values>

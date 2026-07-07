@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">buildNextPatientId</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">SURhdGFDdXJzb3IgY3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQoNClN0cmluZyBjdXJy
+ZW50UGF0aWVudElkID0gSURhdGFVdGlsLmdldFN0cmluZyhjdXJzb3IsICJjdXJyZW50UGF0aWVu
+dElkIik7DQoNClN0cmluZyBwYXRpZW50SWQ7DQoNCmlmIChjdXJyZW50UGF0aWVudElkID09IG51
+bGwgfHwgY3VycmVudFBhdGllbnRJZC50cmltKCkuaXNFbXB0eSgpKSB7DQogICAgcGF0aWVudElk
+ID0gIlAwMDEiOw0KfSBlbHNlIHsNCiAgICBTdHJpbmcgbnVtZXJpY1BhcnQgPSBjdXJyZW50UGF0
+aWVudElkLnJlcGxhY2VBbGwoIlxcRCsiLCAiIik7DQogICAgaW50IG5leHROdW1iZXIgPSBJbnRl
+Z2VyLnBhcnNlSW50KG51bWVyaWNQYXJ0KSArIDE7DQogICAgcGF0aWVudElkID0gU3RyaW5nLmZv
+cm1hdCgiUCUwM2QiLCBuZXh0TnVtYmVyKTsNCn0NCg0KSURhdGFVdGlsLnB1dChjdXJzb3IsICJw
+YXRpZW50SWQiLCBwYXRpZW50SWQpOw0KDQpjdXJzb3IuZGVzdHJveSgpOw==</value>
+</Values>
